@@ -72,7 +72,7 @@ for i in range(10**(int(num)-1),10**int(num)):
         list_i.append(st_i[j])
     if len(list_i)==len(set(list_i)):
         ans_list.append(str(i))
-print(ans_list)
+#print(ans_list)
 
 while t<int(num) :
     tem=str(random.randrange(0,9))
